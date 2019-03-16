@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://einsoft.com.br",
   "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

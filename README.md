@@ -4,4 +4,4 @@
 
 --[ 2019 03 16
 
-► Versão inicial, teste com reactjs.
+► Versão inicial, testes com reactjs na interface.
