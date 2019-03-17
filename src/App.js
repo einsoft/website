@@ -29,7 +29,7 @@ class App extends Component {
               showmsg: 'shows a message',
               alert: 'alert', popup: 'alert'
             }}
-            msg='Bem-vindo(a) a Einsoft Microsystem, para ajuda digite: help'
+            msg='Einsoft Microsystems - para ajuda digite: help'
           />
         </div>
       );
