@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Terminal from 'terminal-in-react';
 
 class App extends Component {
-    showMsg = () => 'Hello World'
+    showMsg = () => 'Hello World!'
   
     render() {
       return (
@@ -16,9 +16,9 @@ class App extends Component {
         >
           <Terminal
             color='green'
-            backgroundColor='black'
+            backgroundColor='#373b41'
             barColor='black'
-            style={{ fontWeight: "bold", fontSize: "1em" }}
+            style={{ fontWeight: "bold", fontSize: "1.1em", fontFamily: "VT323" }}
             commands={{
               'open-google': () => window.open('https://www.google.com/', '_blank'),
               showmsg: this.showMsg,
