@@ -1,8 +1,39 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
+import React, { Component } from 'react';
+import Terminal from 'terminal-in-react';
 
-const App = () => <div>
-    <Button variant="outline-danger">Einsoft Microsistemas Integrados</Button>
-</div>;
+class App extends Component {
+    showMsg = () => 'Hello World'
+  
+    render() {
+      return (
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh"
+          }}
+        >
+          <Terminal
+            color='green'
+            backgroundColor='black'
+            barColor='black'
+            style={{ fontWeight: "bold", fontSize: "1em" }}
+            commands={{
+              'open-google': () => window.open('https://www.google.com/', '_blank'),
+              showmsg: this.showMsg,
+              popup: () => alert('Terminal in React')
+            }}
+            descriptions={{
+              'open-google': 'opens google.com',
+              showmsg: 'shows a message',
+              alert: 'alert', popup: 'alert'
+            }}
+            msg='Bem-vindo(a) a Einsoft Microsystem, para ajuda digite: help'
+          />
+        </div>
+      );
+    }
+  }
 
 export default App;
