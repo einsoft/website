@@ -30,6 +30,10 @@ class App extends Component {
               alert: 'alert', popup: 'alert'
             }}
             msg='Einsoft Microsystems - para ajuda digite: help'
+            closedTitle='Terminal Fechado (não tem mais nada para fazer aqui!)'
+            closedMessage='Para reabrir, clique no ícone'
+            startState='maximised'
+            hideTopBar='true'
           />
         </div>
       );
