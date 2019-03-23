@@ -2,7 +2,21 @@ import React, { Component } from 'react';
 import Terminal from 'terminal-in-react';
 
 class App extends Component {
-    showMsg = () => 'Hello World!'
+    componentDidMount () {
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "862896c7-d3fb-40d2-89cd-57ac29701882";
+  
+      (function() {
+        var d = document;
+        var s = d.createElement("script");
+  
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+     };
+
+    showMsg = () => 'Hello World!';
   
     render() {
       return (
