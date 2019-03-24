@@ -7,7 +7,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: 'VT323', source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -17,4 +17,9 @@ code {
   -moz-box-shadow: 5px 5px 5px black;
   -webkit-box-shadow: 5px 5px 5px black;
   box-shadow: 5px 5px 5px black;
+  overflow: hidden;
+}
+
+.fNIzDw {
+  overflow: hidden;
 }
