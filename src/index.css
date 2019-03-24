@@ -10,3 +10,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.terminal-base {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
