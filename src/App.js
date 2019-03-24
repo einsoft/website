@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+// https://github.com/nitin42/terminal-in-react
 import Terminal from 'terminal-in-react';
-
+// https://github.com/jcgertig/terminal-in-react-pseudo-file-system-plugin
+import pseudoFileSystemPlugin from 'terminal-in-react-pseudo-file-system-plugin';
+const FileSystemPlugin = pseudoFileSystemPlugin();
 class App extends Component {
+  /* Crisp chat */
     componentDidMount () {
       window.$crisp = [];
       window.CRISP_WEBSITE_ID = "862896c7-d3fb-40d2-89cd-57ac29701882";
@@ -32,6 +36,9 @@ class App extends Component {
             color='green'
             backgroundColor='#373b41'
             barColor='black'
+            plugins={[
+              FileSystemPlugin
+            ]}
             style={{ fontWeight: "bold", fontSize: "1.1em", fontFamily: "VT323" }}
             commands={{
               'open-google': () => window.open('https://www.google.com/', '_blank'),
@@ -46,7 +53,7 @@ class App extends Component {
             msg='Einsoft Microsystems - para ajuda digite: help'
             closedTitle='Terminal Fechado (não tem mais nada para fazer aqui!)'
             closedMessage='Para reabrir, clique no ícone'
-            startState='maximised'
+            startState='open'
             hideTopBar='true'
           />
         </div>
