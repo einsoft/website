@@ -37,7 +37,7 @@ class App extends Component {
             backgroundColor='#373b41'
             barColor='black'
             plugins={[
-              FileSystemPlugin
+              FileSystemPlugin,
             ]}
             style={{ fontWeight: "bold", fontSize: "1.1em", fontFamily: "VT323" }}
             commands={{
