@@ -54,6 +54,7 @@ class App extends Component {
             closedTitle='Terminal Fechado (não tem mais nada para fazer aqui!)'
             closedMessage='Para reabrir, clique no ícone'
             startState='open'
+            hideTopBar='true'
           />
         </div>
       );
