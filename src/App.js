@@ -41,13 +41,15 @@ class App extends Component {
             ]}
             style={{ fontWeight: "bold", fontSize: "1.1em", fontFamily: "VT323" }}
             commands={{
-              'open-google': () => window.open('https://www.google.com/', '_blank'),
+              'ein-blog': () => window.open('https://blog.einsoft.com.br/', '_self'),
+              'ein-mini': () => window.open('https://mini.einsoft.com.br/', '_self'),
               showmsg: this.showMsg,
-              popup: () => alert('Terminal in React')
+              popup: () => alert('▂▃▅▇█▓▒░۩۞۩ OK??? ۩۞۩░▒▓█▇▅▃▂')
             }}
             descriptions={{
-              'open-google': 'opens google.com',
-              showmsg: 'shows a message',
+              'ein-blog': '» opens Einsoft Blog',
+              'ein-mini': '» sometimes NSFW bro!',
+              showmsg: '» shows a message',
               alert: 'alert', popup: 'alert'
             }}
             msg='Einsoft Microsystems - para ajuda digite: help'
