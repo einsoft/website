@@ -44,7 +44,7 @@ class App extends Component {
               'ein-blog': () => window.open('https://blog.einsoft.com.br/', '_self'),
               'ein-mini': () => window.open('https://mini.einsoft.com.br/', '_self'),
               showmsg: this.showMsg,
-              popup: () => alert('▂▃▅▇█▓▒░۩۞۩ OK??? ۩۞۩░▒▓█▇▅▃▂')
+              popup: () => alert('▂▃▅▇█▓▒░۩۞۩ ?¿?OK?¿? ۩۞۩░▒▓█▇▅▃▂')
             }}
             descriptions={{
               'ein-blog': '» opens Einsoft Blog',
