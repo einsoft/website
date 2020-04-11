@@ -50,7 +50,8 @@ class App extends Component {
               'ein-blog': '» opens Einsoft Blog',
               'ein-mini': '» sometimes NSFW bro!',
               showmsg: '» shows a message',
-              alert: 'alert', popup: 'alert'
+              alert: 'alert', 
+              popup: 'alert'
             }}
             msg='Einsoft Microsystems - para ajuda digite: help'
             closedTitle='Terminal Fechado (não tem mais nada para fazer aqui!)'
